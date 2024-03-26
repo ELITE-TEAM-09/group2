@@ -1,0 +1,26 @@
+
+#countlable{
+    font-size: 10em;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#btn{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    
+    
+}
+.button{
+    background-color: rgb(95, 95, 224);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: blue;
+}
