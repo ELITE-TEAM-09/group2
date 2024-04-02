@@ -31,7 +31,7 @@ function calculateTax(income){
         //check if there is any remaining income to be taxed
         if(remainIncome <=0) break;
         //calculate taxable amount within the current slab
-        const taxableAmount =Math.min(remainIncome, slab.limit);
+        const taxableAmount =Math.min;
         //calculate the taxfor the taxable amount
         tax+= taxableAmount *slab.rate;
 
